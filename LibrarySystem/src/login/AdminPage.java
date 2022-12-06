@@ -78,7 +78,7 @@ public class AdminPage extends JFrame {
 		panel_1.setBounds(0, 50, 934, 64);
 		contentPane_1.add(panel_1);
 		
-		JButton btnNewButton = new JButton("Manage products");
+		JButton btnNewButton = new JButton("Editeaza produse");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Manage m = new Manage();
@@ -91,26 +91,15 @@ public class AdminPage extends JFrame {
 		btnNewButton.setForeground(new Color(255, 255, 255));
 		btnNewButton.setBackground(new Color(153, 51, 51));
 		btnNewButton.setFont(new Font("Book Antiqua", Font.PLAIN, 20));
-		btnNewButton.setBounds(58, 11, 210, 41);
+		btnNewButton.setBounds(153, 11, 210, 41);
 		panel_1.add(btnNewButton);
 		
 		JButton btnVeziComenzile = new JButton("Vezi comenzile");
 		btnVeziComenzile.setForeground(new Color(255, 255, 255));
 		btnVeziComenzile.setFont(new Font("Book Antiqua", Font.PLAIN, 20));
 		btnVeziComenzile.setBackground(new Color(153, 51, 51));
-		btnVeziComenzile.setBounds(365, 11, 210, 41);
+		btnVeziComenzile.setBounds(549, 11, 210, 41);
 		panel_1.add(btnVeziComenzile);
-		
-		JButton btnVeziRecenzii = new JButton("Vezi recenzii");
-		btnVeziRecenzii.setForeground(new Color(255, 255, 255));
-		btnVeziRecenzii.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
-		btnVeziRecenzii.setFont(new Font("Book Antiqua", Font.PLAIN, 20));
-		btnVeziRecenzii.setBackground(new Color(153, 51, 51));
-		btnVeziRecenzii.setBounds(653, 11, 210, 41);
-		panel_1.add(btnVeziRecenzii);
 	}
 
 }
